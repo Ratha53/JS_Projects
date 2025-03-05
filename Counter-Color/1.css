@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(5, 5, 87);
+    text-align: center;
+    background-color: whitesmoke;
+}
+h1{
+    font-size: 53px;
+    font-family: Arial;
+    font-weight:700;
+    margin-top: 23px;
+}
+#counter{
+    font-size: 93px;
+    font-family:'Lucida Sans';
+    font-weight:700;
+}
+.changes{
+    display: inline-flex;
+    gap: 1rem;
+}
+#increase-input{
+    font-size: 23px;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 7px;
+    color:green;
+}
+#increase-input:hover{
+    background-color: rgb(96, 215, 96);
+}
+#reset-btn{
+    font-size: 23px;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 7px;
+}
+#reset-btn:hover{
+    background-color: rgb(118, 118, 255);
+}
+#decrease-btn{
+    font-size: 23px;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 7px;
+    color: red;
+}
+#decrease-btn:hover{
+    background-color: rgb(255, 138, 138);
+}

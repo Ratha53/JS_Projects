@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    margin: 0;
+    background-color: rgb(21, 21, 133);
+    color:white;
+    font-family: "comic sans ms";
+}
+.container{
+    font-size: 1.3rem;
+    height: 100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    text-align: center;
+}
+.boxcontent{
+    height: 100px;
+    width: 200px;
+    border:2px white solid;
+    margin: 0.5rem;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
