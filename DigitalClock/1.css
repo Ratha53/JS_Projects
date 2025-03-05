@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: url("1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.container{
+  height: 50vh;
+}
+.tag{
+  font-size: 5rem;
+  margin-bottom: 3rem;
+}
+.time{
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items:center;
+  margin-top: 1rem;
+}
+h5{
+  color:rgb(255, 255, 255,0.3);
+  
+  font-weight: 200;
+  font-family:Arial;
+  letter-spacing: 7px;
+}
+a{
+  font-size: 4rem;
+  color: rgb(255, 255, 255,0.7);
+  font-family:Arial;
+  font-weight:100;
+  background-color: rgb(60, 35, 134);
+  padding: 13px;
+  border-radius: 5px;
+}
+.names{
+  color: white;
+  font-size: 15px;
+  font-family:Arial;
+  background-color: rgb(119, 119, 227);
+  text-align-last: center;
+  margin-top: 1rem;
+  padding: 3px;
+  border-radius: 7px;
+}
+.sessions{
+  background-color: green;
+  padding: 5px;
+  height: inherit;
+  font-size: 39px;
+  border-radius: 5px;
+}
