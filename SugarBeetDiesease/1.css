@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial;
+}
+header{
+    background-color: 	rgb(2, 61, 2);
+    color:white;
+    height: 5rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+nav{
+    font-size: 2rem;
+    margin: 1rem;
+    word-spacing: 5rem;
+}
+nav a{
+    font-stretch:ultra-condensed;
+    text-decoration: none;
+    color: inherit;
+    letter-spacing: 3px;
+    padding: 7px;
+}
+nav a:hover{
+    border: 3px rgb(153, 181, 153) solid;
+    border-radius: 7px;
+    padding: 5px;
+}
+
+#imageSection{
+    margin-top: 1rem;
+    height: 37rem;
+}
+.dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.dot{
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    margin: 1.2rem 5px;
+}
+.dot:hover{
+    background-color: rgb(68, 70, 71);
+}
+#section2{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#section2 div{
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 7px 7px rgb(57, 44, 44,0.3);
+}
+#section2 h2{
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    text-decoration-line: underline;
+}
+#section2 p{
+    font-size: 1.1rem;
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    text-align: justify;
+}
+
+
+#imageInput{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#imageInput form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    height: 13rem;
+    width:23rem;
+    box-shadow: 0px 0px 7px 7px rgb(57, 44, 44,0.3);
+    border-radius: 7px;
+    margin: 2rem;
+    background-color: rgb(226, 216, 216);
+}
+
+#imageInput form input{
+    padding:1.3rem;
+    font-size: 1rem;
+    border: 2px dashed;
+    border-radius: 1.3rem;
+    margin: 2rem;
+}
+#submit{
+    padding:0.5rem;
+    font-size: 1.3rem;
+    border-radius: 1rem;
+    color: green;
+}
+#submit:hover{
+    cursor: pointer;
+}
+
+footer{
+    background-color: 	rgb(46, 77, 46);
+    color: white;
+    padding: 1rem;
+    height: 79vh;
+}
+.shortcuts{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+.shortcut ul {
+    text-align: left;
+    margin: 1.5rem;
+}
+.shortcut ul:hover{
+    cursor:pointer;
+}
+
+#contact{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content:space-between;
+    text-align: left;
+    color: rgb(255, 255, 255,0.7);
+}
+#copyright{
+    margin-top: 2.7em;
+    font-size: 2rem;
+    text-align: center;
+}
