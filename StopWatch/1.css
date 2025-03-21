@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgb(255, 255, 255);
+    color: #02486b;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Arial;
+}
+h1{
+    background-color: yellow;
+    color: rgb(3, 3, 68);
+}
+#time{
+    font-weight: 300;
+    font-size: 5rem;
+}
+.btn{
+    font-size: 23px;
+    font-family:Lucida Sans;
+    font-weight: 900;
+    border-radius: 0.9rem;
+    padding: 0.3rem;
+    background-color: white;
+    margin:0.1rem;
+}
+#start{
+    color: green;   
+}
+#reset{
+    color: red;   
+}
+#reset:hover{
+    background-color: hsl(0, 100%, 81%);   
+}
